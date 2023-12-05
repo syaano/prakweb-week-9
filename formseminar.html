@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Seminar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- buka navbar -->
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+					  <span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+	
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+					  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item active">
+							<a class="nav-link" href="formseminar.html">Form Seminar<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="register.html">Register<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="kegiatanseminar.html">Kegiatan Seminar<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="datapeserta.html">Data Peserta<span class="sr-only">(current)</span></a>
+						</li>
+					  </ul>
+					  <form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					  </form>
+					</div>
+				  </nav>
+				  <!--tutup navbar -->
+           <!-- buka breadcrumb -->
+           <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Kegiatan</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Create New Seminar</li>
+            </ol>
+          </nav>
+          <!-- tutup breadcrumb -->
+          <!-- buka form -->
+    <form>
+        <div class="form-group row">
+          <label for="text1" class="col-4 col-form-label">Kode</label> 
+          <div class="col-8">
+            <input id="text1" name="text1" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="text" class="col-4 col-form-label">Nama Kegiatan</label> 
+          <div class="col-8">
+            <input id="text" name="text" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="text2" class="col-4 col-form-label">Tanggal Mulai</label> 
+          <div class="col-8">
+            <input id="text2" name="text2" type="date" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="text3" class="col-4 col-form-label">Tanggal Akhir</label> 
+          <div class="col-8">
+            <input id="text3" name="text3" type="date" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="text4" class="col-4 col-form-label">Biaya</label> 
+          <div class="col-8">
+            <input id="text4" name="text4" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="text5" class="col-4 col-form-label">Tempat</label> 
+          <div class="col-8">
+            <input id="text5" name="text5" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="text6" class="col-4 col-form-label">Latitude</label> 
+          <div class="col-8">
+            <input id="text6" name="text6" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="text7" class="col-4 col-form-label">Longitude</label> 
+          <div class="col-8">
+            <input id="text7" name="text7" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="select" class="col-4 col-form-label">Jenis Kegiatan</label> 
+          <div class="col-8">
+            <select id="select" name="select" class="custom-select">
+              <option value="Online">Online</option>
+              <option value="Offline">Offline</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="text8" class="col-4 col-form-label">PIC</label> 
+          <div class="col-8">
+            <input id="text8" name="text8" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="textarea" class="col-4 col-form-label">Deskripsi</label> 
+          <div class="col-8">
+            <textarea id="textarea" name="textarea" cols="40" rows="5" class="form-control"></textarea>
+          </div>
+        </div> 
+        <div class="form-group row">
+          <div class="offset-4 col-8">
+            <button name="submit" type="submit" class="btn btn-primary">Simpan</button>
+          </div>
+        </div>
+      </form>
+      <!-- tutup form -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</html>

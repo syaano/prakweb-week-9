@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Peserta</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+     body {
+            padding: 0;
+            margin: 0;
+        }
+        table {
+          width: 50%;
+          margin: 10px;
+        }
+    
+        th, td {
+          border: 2px solid rgb(119, 136, 98);
+          padding: 10px;
+          text-align: center;
+        }
+    
+        th {
+          background-color: rgb(190, 236, 190);
+        }
+        .container {
+            margin-left: 25px;
+           
+        }
+        .src {
+            margin-left: 50px;
+        }
+      </style>
+</head>
+<body>
+  <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- buka navbar-->
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+					  <span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+	
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+					  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item active">
+							<a class="nav-link" href="formseminar.html">Form Seminar<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="register.html">Register<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="datapeserta.html">Data Peserta<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="kegiatanseminar.html">Kegiatan Seminar<span class="sr-only">(current)</span></a>
+						</li>
+					  </ul>
+					</div>
+				  </nav>
+				  <!-- tutup navbar -->
+    <div class="src">
+        <h2>Data Peserta Seminar</h2>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+    
+<div class="container">
+  <table>
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Nomor</th>
+        <th>Nama Lengkap</th>
+        <th>Tempat Lahir</th>
+        <th>Tanggal Lahir</th>
+        <th>Gender</th>
+        <th>Email</th>
+        <th>Katagori</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>S001</td>
+        <td>Alifa Putri</td>
+        <td>Depok</td>
+        <td>2002-12-28</td>
+        <td>Perempuan</td>
+        <td>alifaptr28@gmail.com</td>
+        <td>Mahasiswa</td>
+        <td>Booking</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>S025</td>
+        <td>Talitha Tasya</td>
+        <td>Bogor</td>
+        <td>2000-06-01</td>
+        <td>Perempuan</td>
+        <td>talithasya@gmail.com</td>
+        <td>Mahasiswa</td>
+        <td>Booking</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>S010</td>
+        <td>Kaffi Nazua</td>
+        <td>Jakarta</td>
+        <td>2003-12-25</td>
+        <td>Perempuan</td>
+        <td>kaffinaz@gmail.com</td>
+        <td>Mahasiswa</td>
+        <td>Booking</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</html>
